@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-image: url("back2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    color: #F0EAE3;
+    text-align: center;
+}
+
+
+/*ICONOS */
+
+.fa-brands {
+    color: #E3CCBD;
+}
+
+
+/*CONTENEDOR PRINCIPAL */
+
+.container {
+    background: rgba(81, 81, 81, 0.9);
+    margin: 0 auto;
+    min-width: 500px;
+    width: 45%;
+}
+
+
+/* HEADER */
+
+h1 {
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: 1.5em;
+}
+
+h1 span {
+    font-weight: 800;
+    font-size: 2em;
+}
+
+img {
+    border: solid #E3CCBD;
+    border-radius: 50%;
+    width: 160px;
+}
+
+
+/*LISTA */
+
+ul {
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+/* SECCIONES */
+
+section {
+    height: 150px;
+    margin-top: 10px;
+}
+
+h2 {
+    background-color: #E3CCBD;
+    opacity: 0.8;
+    color: #494949;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.Informacion {
+    margin-top: 90px;
+}
+
+p {
+    margin-top: 10px;
+    color: white;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background-color: #494949;
+    height: 50px;
+}
+
+.footer p {
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+.fa-brands:hover,
+.fa-brands:focus,
+.boton:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.boton {
+    padding: 10px;
+    margin: 15px;
+}
+
+
+/* MEDIA QUERIES*/
+
+@media only screen and (max-width: 767px) {
+    h1,
+    h2,
+    p {
+        font-size: 1em;
+    }
+}
