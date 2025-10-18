@@ -1,2 +1,3 @@
 # TicmasPractica
-Práctica Ticmas
+Práctica Frontend utilizando HTML, CSS , JAVASCRIPT
+Creación de CV 
